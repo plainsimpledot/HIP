@@ -11,21 +11,37 @@
 
 ## Summary
 
-This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was promised by the Helium Foundation in early 2022. 
+This Helium Improvement Proposal is designed to allow the investors in the Helium network in
+Australia to have a voice in determining the best frequency plan for the country, as was promised by
+the Helium Foundation in early 2022.
 
 ## Motivation
 
-On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid AS923/AU915 frequency. This decision was made without any HIP or due process and in conflict with promises made previously in regard to the frequency plan. 
+On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid
+AS923/AU915 frequency. This decision was made without any HIP or due process and in conflict with
+promises made previously in regard to the frequency plan.
 
-The excuse given related to a footnote inserted in a LORA Alliance document by an industry player which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance. The LORA Alliance also confirmed that intentions to diminish the AU915 frequency plan which were hinted at by the Helium Foundation are completely false and there are no such plans.
+The excuse given related to a footnote inserted in a LORA Alliance document by an industry player
+which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
+The LORA Alliance also confirmed that intentions to diminish the AU915 frequency plan which were
+hinted at by the Helium Foundation are completely false and there are no such plans.
 
-We believe, backed up by expert opinions including senior members of the LORA Alliance, that the only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in densely populated areas to voluntarily operate on AS923.
+We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
+only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
+densely populated areas to voluntarily operate on AS923.
 
-AU915 is better suited to the Australian environment and use cases and will allow for roaming on TTN and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator who has limited use cases and provides their own coverage in areas they are utilising sensors. This also allows gateway operators who will move over to ThingsIX to dual purpose their gateways rather than to lose them from the Helium network completely.
+AU915 is better suited to the Australian environment and use cases and will allow for roaming on TTN
+and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
+who has limited use cases and provides their own coverage in areas they are utilising sensors. This
+also allows gateway operators who will move over to ThingsIX to dual purpose their gateways rather
+than to lose them from the Helium network completely.
 
 ## Stakeholders
 
-Australia has a vibrant communtiy of members dedicated to furthering LORAWAN in this region. We have several channels of communication avaialable, including the official Helium discord and the LoRawan Australia discords. The community also run numerous facebook groups for all of the major regions in Australia.
+Australia has a vibrant communtiy of members dedicated to furthering LORAWAN in this region. We have
+several channels of communication avaialable, including the official Helium discord and the LoRawan
+Australia discords. The community also run numerous facebook groups for all of the major regions in
+Australia.
 
 ## Detailed Explanation
 
