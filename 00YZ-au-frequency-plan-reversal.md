@@ -18,12 +18,13 @@ the Helium Foundation in early 2022.
 ## Motivation
 
 On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid
-AS923/AU915 frequency. This decision was made without any HIP or due process which goes against Helium governance and is in conflict with
-promises made previously in regard to the frequency plan.
+AS923/AU915 frequency. This decision was made without any HIP or due process which goes against
+Helium governance and is in conflict with promises made previously in regard to the frequency plan.
 
 The reasoning given related to a footnote inserted in a LORA Alliance document by an industry player
 which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
-The LORA Alliance also confirmed that there is absolutely no intention to diminish the AU915 frequency plan in the future.
+The LORA Alliance also confirmed that there is absolutely no intention to diminish the AU915
+frequency plan in the future.
 
 We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
 only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
@@ -49,9 +50,13 @@ Voting will be 1 vote per hotspot asserted in the Australian continent.
 The change is extremely simple in that it is reverting to a known working configuration utilising a
 LORA Alliance approved frequency plan at 27 dBm which is within the permitted range for Australia.
 
-The risks in not switching to AU915 are that the current trend downwards in both operating gateways and data usage will contine to show the dramatic decline it has shown since the deployment of the 'dual plan'
+The risks in not switching to AU915 are that the current trend downwards in both operating gateways
+and data usage will contine to show the dramatic decline it has shown since the deployment of the
+'dual plan'
 
-At the very least the operator/investors in Australia should be presented the potential benefits of each option and be allowed to make the decision based on what is best for the network and therefore their investments.
+At the very least the operator/investors in Australia should be presented the potential benefits of
+each option and be allowed to make the decision based on what is best for the network and therefore
+their investments.
 
 The code limiting votes to a per hotspot asserted to the Australian continent is outlined below.
 
