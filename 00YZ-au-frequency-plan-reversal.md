@@ -95,7 +95,11 @@ this project.
 
 ## Success Metrics
 
-We expect to see an upswing in the number of hotspots operating in the country as well as data usage towards what it was pre Nov 17.
-We expect a restoration in confidence in the Helium governance process and towards Helium as a whole.
-The deployment of ThingsIX gateways and sensors in the region, which will run on AU915 as the preferred frequency plan for the country, will see some REAL opportunities for roaming.
-By remaining on the preferred data plan, we will not only see those moving over to ThingsIX be able to remain on the Helium platform, rather than be lost to the network, we also have the opportunity to attract operators who come into ThingsIX to multiplex their gateways or operate their sensors accross both networks.
+We expect to see an upswing in the number of hotspots operating in the country as well as data usage
+towards what it was pre Nov 17. We expect a restoration in confidence in the Helium governance
+process and towards Helium as a whole. The deployment of ThingsIX gateways and sensors in the
+region, which will run on AU915 as the preferred frequency plan for the country, will see some REAL
+opportunities for roaming. By remaining on the preferred data plan, we will not only see those
+moving over to ThingsIX be able to remain on the Helium platform, rather than be lost to the
+network, we also have the opportunity to attract operators who come into ThingsIX to multiplex their
+gateways or operate their sensors accross both networks.
