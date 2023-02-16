@@ -43,12 +43,14 @@ several channels of communication avaialable, including the official Helium disc
 Australia discords. The community also run numerous facebook groups for all of the major regions in
 Australia.
 
+Voting will be 1 vote per hotspot asserted in the Australian continent. 
+
 ## Detailed Explanation
 
-- Introduce and explain new concepts.
-- It should be reasonably clear how the proposal would be implemented.
-- Provide representative examples that show how this proposal would be commonly used.
-- Corner cases should be dissected by example.
+The change is extremely simple in that it is reverting to a known working configuration utilising a 
+LORA Alliance approved frequency plan at 27 dBm which is within the permitted range for Australia.
+
+The code limiting votes to a per hotspot asserted to the Australian continent is outlined below.
 
 ## Drawbacks
 
