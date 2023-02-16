@@ -18,19 +18,18 @@ the Helium Foundation in early 2022.
 ## Motivation
 
 On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid
-AS923/AU915 frequency. This decision was made without any HIP or due process and in conflict with
+AS923/AU915 frequency. This decision was made without any HIP or due process which goes against Helium governance and is in conflict with
 promises made previously in regard to the frequency plan.
 
-The excuse given related to a footnote inserted in a LORA Alliance document by an industry player
+The reasoning given related to a footnote inserted in a LORA Alliance document by an industry player
 which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
-The LORA Alliance also confirmed that intentions to diminish the AU915 frequency plan which were
-hinted at by the Helium Foundation are completely false and there are no such plans.
+The LORA Alliance also confirmed that there is absolutely no intention to diminish the AU915 frequency plan in the future.
 
 We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
 only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
 densely populated areas to voluntarily operate on AS923.
 
-AU915 is better suited to the Australian environment and use cases and will allow for roaming on TTN
+AU915 is better suited to the Australian environment / use cases and will allow for roaming on TTN
 and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
 who has limited use cases and provides their own coverage in areas they are utilising sensors. This
 also allows gateway operators who will move over to ThingsIX to dual purpose their gateways rather
@@ -49,6 +48,10 @@ Voting will be 1 vote per hotspot asserted in the Australian continent.
 
 The change is extremely simple in that it is reverting to a known working configuration utilising a
 LORA Alliance approved frequency plan at 27 dBm which is within the permitted range for Australia.
+
+The risks in not switching to AU915 are that the current trend downwards in both operating gateways and data usage will contine to show the dramatic decline it has shown since the deployment of the 'dual plan'
+
+At the very least the operator/investors in Australia should be presented the potential benefits of each option and be allowed to make the decision based on what is best for the network and therefore their investments.
 
 The code limiting votes to a per hotspot asserted to the Australian continent is outlined below.
 
