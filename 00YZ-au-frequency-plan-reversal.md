@@ -1,4 +1,4 @@
-# HIP YZ: Australian Frequency Plan Reversal - AU915
+# HIP YZ: Australian Frequency Plan Choice - AU915
 
 - Author(s): [@plainsimpledot](https://github.com/plainsimpledot)
   [@Buckshot22](https://github.com/Buckshot22), [@mcauser](https://github.com/mcauser),
