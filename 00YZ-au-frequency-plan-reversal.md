@@ -11,8 +11,7 @@
 
 ## Summary
 
-This Helium Improvement Proposal is designed to allow the investors in the Helium network in
-Australia to have a voice in determining the best frequency plan for the country, as was promised by
+This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was promised by
 the Helium Foundation in early 2022.
 
 ## Motivation
@@ -32,9 +31,7 @@ densely populated areas to voluntarily operate on AS923.
 
 AU915 is better suited to the Australian environment / use cases and will allow for roaming on TTN
 and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
-who has limited use cases and provides their own coverage in areas they are utilising sensors. This
-also allows gateway operators who will move over to ThingsIX to dual purpose their gateways rather
-than to lose them from the Helium network completely.
+who has limited use cases and provides their own coverage in areas they are utilising sensors. This also allows gateway operators who will move over to alternative networks (such as ThingsIX) to dual purpose their gateways rather than to lose them from the Helium network completely.
 
 ## Stakeholders
 
@@ -74,6 +71,16 @@ probably the most important section!
 - What other designs have been considered and what is the rationale for not choosing them?
 - What is the impact of not doing this?
 
+## Voting mechanism
+
+It is proposed to use the standard Helium on-chain voting system [HeliumVotes](https://heliumvote.com) to allow any wallet to vote on this HIP. See [Voting on Helium](https://docs.helium.com/community-voting/) documentation on Helium Docs.
+
+Since this is a change only affecting the Australian Region it should be made clear that only wallets containing hotspots asserted in the Australia region will be eligible to be counted.
+
+YES Vote will be the total number of hotspots asserted to the AU region contained in wallets that have burned a vote transaction to the **FOR** wallet address.
+
+NO Vote will be the total number of hotspots asserted to the AU region contained in wallets that have burned a vote transaction to the **AGAINST** wallet address.
+
 ## Unresolved Questions
 
 - What parts of the design do you expect to resolve through the HIP process before this gets merged?
@@ -84,14 +91,22 @@ probably the most important section!
 
 ## Deployment Impact
 
-Describe how this design will be deployed and any potential impact it may have on current users of
-this project.
+This change will impact any gateway asserted in the Australia region.
 
-- How will current users be impacted?
-- How will existing documentation/knowledge base need to be supported? Any content to change at
-  <http://docs.helium.com>?
-- Is this backwards compatible? Can this HIP be undone?
-  - If not, what is the procedure to migrate?
+As the change will need the involvement of the maker community (although the end-state will be known as it effectively reverts to the gateway state prior to November 17).
+
+Since this will require the change of chain-vars the proposal would be to revert this as part of the migration to the new routing infrastructure and LNS implementation post the Solana chain migration.
+
+Current device users will have to revert changes to their Sensors. Since the number of devices and data usage has been dropping past 17th November this should be done as a matter of urgency as soon as teh chain migration has been completed and when manufacturers are required to switch over to the new gateway-rs implementation switching from LNS State channels to the NetID based routing infrastructure (coupled with the Chirpstack LNS switch).
+
+The following documentation will need to be modified.
+
+- [Frequencies on the Helium Network](https://docs.helium.com/lorawan-on-helium/frequency-plans)
+- [Frequencies by Region on the Helium Network](https://docs.helium.com/lorawan-on-helium/region-plans)
+
+The implementation procedure is the reversal of the change made on November 17th 2022 and is reversable in the same way.
+
+The impact should be dramatically less since this would re-instate the plan that was in place for the years leading up to November 17th and was extensively tested.
 
 ## Success Metrics
 
