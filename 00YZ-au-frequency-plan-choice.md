@@ -12,7 +12,7 @@
 ## Summary
 
 This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was promised by
-the Helium Foundation in early 2022.
+the Helium Foundation in early 2022. This brings the region in line with the Helium IOT POC Roadmap.
 
 ## Motivation
 
@@ -27,7 +27,7 @@ frequency plan in the future.
 
 We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
 only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
-densely populated areas to voluntarily operate on AS923.
+densely populated areas to voluntarily operate on AS923. This is also in line with Jerm's Helium POC Roadmap.
 
 AU915 is better suited to the Australian environment / use cases and will allow for roaming on TTN
 and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
