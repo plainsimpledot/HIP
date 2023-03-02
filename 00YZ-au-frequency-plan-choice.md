@@ -27,7 +27,7 @@ frequency plan in the future.
 
 We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
 only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
-densely populated areas to voluntarily operate on AS923. This is also in line with Jerm's Helium POC Roadmap.
+densely populated areas to voluntarily operate on AS923 in line with the Helium IOT POC roadmap.
 
 AU915 is better suited to the Australian environment / use cases and will allow for roaming on TTN
 and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
