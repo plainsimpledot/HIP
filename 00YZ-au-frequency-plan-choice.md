@@ -81,13 +81,6 @@ YES Vote will be the total number of hotspots asserted to the AU region containe
 
 NO Vote will be the total number of hotspots asserted to the AU region contained in wallets that have burned a vote transaction to the **AGAINST** wallet address.
 
-## Unresolved Questions
-
-- What parts of the design do you expect to resolve through the HIP process before this gets merged?
-- What parts of the design do you expect to resolve through the implementation of this feature?
-- What related issues do you consider out of scope for this HIP that could be addressed in the
-  future independently of the solution that comes out of this HIP?
-- Are there dependencies, milestones, or dates that need to be met for this HIP to succeed?
 
 ## Deployment Impact
 
