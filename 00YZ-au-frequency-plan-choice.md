@@ -60,7 +60,7 @@ The code limiting votes to a per hotspot asserted to the Australian continent is
 ## Drawbacks
 
 The only potential drawbacks would be the short to medium term lack of roaming support to AS923.
-This has proven to be negligible and in fact the loss of AU915 devices from the network has resulted in a significant nett decrease in data traffic.
+This has proven to be negligible and in fact the loss of AU915 devices which have moved to alternatives as a result in the plan change and associated issues, has resulted in a significant nett decrease in data traffic. Therefore the move to AU915 is likely to result in recovering some of those losses and provide an immediately positive outcome.
 
 Further, the landscape has changed with a resurgence of TTN in the region along with the emergence of ThingsIX both on AU915.
 AS923 support can and should be looked at for future implementation as a means to reduce congestion in built up areas by allowing hotspots in congested hexes to switch to this plan to avoid diminished earnings and to allow for 16 channel or dual gateway operations. 
