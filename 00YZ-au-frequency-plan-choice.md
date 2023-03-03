@@ -59,8 +59,10 @@ The code limiting votes to a per hotspot asserted to the Australian continent is
 
 ## Drawbacks
 
-- Why should we _not_ do this?
-- What problems could occur if we do this?
+The only potential drawbacks would be the short to medium term lack of roaming support to AS923.
+This has proven to be negligible however and the landscape has changed with a resurgence of TTN in the region along with the emergence of ThingsIX both on AU915.
+AS923 support can and should be looked at for future implementation as a means to reduce congestion in built up areas by allowing hotspots in congested hexes to switch to this plan to avoid diminished earnings and to allow for 16 channel or dual gateway operations. 
+This would provide full AS923 support while allowing full AU915 support, which is not available in the current plan, while also helping to solve congestion issues. This is the course of action recommended by all of the experts we have consulted with including senior members of the LORA Alliance.
 
 ## Rationale and Alternatives
 
