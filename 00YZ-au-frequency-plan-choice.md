@@ -1,7 +1,7 @@
 # HIP YZ: Australian Frequency Plan Choice - AU915
 
 - Author(s): [@plainsimpledot](https://github.com/plainsimpledot)
-  [@Buckshot22](https://github.com/Buckshot22), [@mcauser](https://github.com/mcauser),
+  [@Buckshot22](https://github.com/Buckshot22)(@Jules22), [@mcauser](https://github.com/mcauser),
   [@leogaggl](https://github.com/leogaggl), [@tonysmith55](https://github.com/tonysmith55)
 - Start Date: 2023-02-16
 - Category: Technical
