@@ -26,7 +26,7 @@ The LORA Alliance also confirmed that there is absolutely no intention to dimini
 frequency plan in the future.
 
 We believe, backed up by expert opinions including senior members of the LORA Alliance, that the
-only effective way to support AS923 is to utilise 16 channel gateways or allow investor/operators in
+only effective way to support AS923 is to utilise 16 channel gateways, dual 8 channel gateways or allow investor/operators in
 densely populated areas to voluntarily operate on AS923 in line with the Helium IOT POC roadmap goal of reducing congestion.
 
 AU915 is better suited to the Australian environment / use cases and will allow for roaming on TTN
