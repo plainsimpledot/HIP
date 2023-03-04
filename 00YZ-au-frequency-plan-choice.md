@@ -11,14 +11,14 @@
 
 ## Summary
 
-This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was promised by
+This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was originaly proposed by
 the Helium Foundation in early 2022. This brings the region in line with the Helium IOT POC Roadmap.
 
 ## Motivation
 
 On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid
 AS923/AU915 frequency. This decision was made without any HIP or due process which goes against
-Helium governance and is in conflict with promises made previously in regard to the frequency plan.
+Helium governance and is in conflict with promises made previously.
 
 The reasoning given related to a footnote inserted in a LORA Alliance document by an industry player
 which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
@@ -60,12 +60,12 @@ The code limiting votes to a per hotspot asserted to the Australian continent is
 ## Drawbacks
 
 The only potential drawbacks would be the short to medium term lack of roaming support to AS923.
-This has proven to be negligible and in fact the loss of AU915 devices which have moved to alternatives as a result in the plan change and associated issues, has resulted in a significant nett decrease in data traffic. Therefore the move to AU915 is likely to result in recovering some of those losses and provide an immediately positive outcome.
+This has proven to be negligible and in fact the loss of AU915 devices which have moved to alternatives as a result of the plan change and associated issues, has provided a significant nett decrease in data traffic and coverage. Therefore the move to AU915 is likely to result in recovering some of those losses and provide an immediately positive outcome.
 
 Further, the landscape has changed with a resurgence of TTN in the region along with the emergence of ThingsIX both on AU915.
 AS923 support can and should be looked at for future implementation as a means to reduce congestion in built up areas by allowing hotspots in congested hexes to switch to this plan to avoid diminished earnings and to allow for 16 channel or dual gateway operations. 
 
-This would provide full AS923 support while allowing full AU915 support, which is not available in the current plan, while also helping to solve congestion issues. 
+This would provide full AS923 support while also allowing full AU915 support, which is not available in the current plan, meanwhile also helping to solve congestion issues. 
 
 This is the course of action recommended by all of the experts we have consulted with including senior members of the LORA Alliance.
 
