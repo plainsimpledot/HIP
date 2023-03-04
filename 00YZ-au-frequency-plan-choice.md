@@ -71,12 +71,11 @@ This is the course of action recommended by all of the experts we have consulted
 
 ## Rationale and Alternatives
 
-This is your chance to discuss your proposal in the context of the whole design space. This is
-probably the most important section!
+Australia has two valid frequency plans available under local laws and supported by the LORA Alliance. The Alliance make no official distinction between the two and both are freely available for use.
 
-- Why is this design the best in the space of possible designs?
-- What other designs have been considered and what is the rationale for not choosing them?
-- What is the impact of not doing this?
+This HIP simply provides the Australian community the ability to make the choice of plan to be used in the country, weighing up all of the factors and the changing lancdscape with the introduction of ThingsIX.
+
+Doing so brings the decision in line with the Helium governance principles and the advertised "People's Netowrk". As has been outlined above, a Yes vote does not preclude future support for AS923, however such support should be introduced in a manner that does not diminish full AU915 support to allow roaming from all AU915 networks.
 
 ## Voting mechanism
 
