@@ -79,6 +79,8 @@ Doing so brings the decision in line with the Helium governance principles and t
 
 "Full Support" in this context means that any device configured for the frequency plan in question will be able to operate on the network and other networks on the same frequency plan without any requirement for configuration changes.
 
+Public netowrks such as TTN and ThingsIX are much more likely to provide roaming opportunities than the commercial operators who are much more likely to, and usually do, deploy sensors in conjunction with their own gateway infrastructure.
+
 ## Voting mechanism
 
 It is proposed to use the standard Helium on-chain voting system [HeliumVotes](https://heliumvote.com) to allow any wallet to vote on this HIP. See [Voting on Helium](https://docs.helium.com/community-voting/) documentation on Helium Docs.
