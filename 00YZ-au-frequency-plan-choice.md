@@ -46,7 +46,7 @@ Voting will be 1 vote per hotspot asserted in the Australian continent.
 ## Detailed Explanation
 
 The proposed change is extremely simple in that it is reverting to a known working configuration (AU915) utilising a
-LORA Alliance approved frequency plan at 27 dBm which is within the permitted range for Australia.
+LORA Alliance approved frequency plan at up to 30 dBm EIRP which is within the permitted range for Australia.
 
 It is imperative that the Community participates in the decision-making process. The previous lack of Community participation in the decision-making process has led to the need for this proposal. It is essential to recognise that not allowing the Community to participate in the decision-making process may lead to significant risks, such as a lack of community adoption, mistrust, and a loss of community engagement.
 
