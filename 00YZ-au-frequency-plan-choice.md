@@ -12,7 +12,7 @@
 ## Summary
 
 This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was originaly proposed by
-the Helium Foundation in early 2022. This brings the region in line with the Helium IOT POC Roadmap.
+the Helium Foundation in early 2022. 
 
 ## Motivation
 
