@@ -39,6 +39,8 @@ several channels of communication avaialable, including the official Helium disc
 Australia discords. The community also run numerous facebook groups for all of the major regions in
 Australia.
 
+NNNCo currently utilise the AS923 channel plan in Australia however there has been no increase in data usage since the changes (in fact there has been a significant decrease) so it is unlikely that they are utilising any roaming. 
+
 Voting will be 1 vote per hotspot asserted in the Australian continent.
 
 ## Detailed Explanation
