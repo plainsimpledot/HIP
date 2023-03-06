@@ -16,9 +16,8 @@ the Helium Foundation in early 2022. This brings the region in line with the Hel
 
 ## Motivation
 
-On 17 November 2022, the Helium Foundation made the decision to move Australia to a hybrid
-AS923/AU915 frequency. This decision was made without any HIP or due process which goes against
-Helium governance and is in conflict with promises made previously.
+The LoRaWAN regional channel plan is critical to the operation of a LoRaWAN network. There are two channel plans available for use in Australia, AU915 and AS923-1. 
+The current Helium network in Australia operates on a AS923-1 channel plan variant. However, the community was not included in the decision-making process for the change in selection of this channel plan from the original AU915.
 
 The reasoning given related to a footnote inserted in a LORA Alliance document by an industry player
 which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
@@ -44,8 +43,10 @@ Voting will be 1 vote per hotspot asserted in the Australian continent.
 
 ## Detailed Explanation
 
-The change is extremely simple in that it is reverting to a known working configuration utilising a
+The proposed change is extremely simple in that it is reverting to a known working configuration utilising a
 LORA Alliance approved frequency plan at 27 dBm which is within the permitted range for Australia.
+
+It is imperative that the Community participates in the decision-making process. The previous lack of Community participation in the decision-making process has led to the need for this proposal. It is essential to recognise that not allowing the Community to participate in the decision-making process may lead to significant risks, such as a lack of community adoption, mistrust, and a loss of community engagement.
 
 The risks in not switching to AU915 are that the current trend downwards in both operating gateways
 and data usage will contine to show the dramatic decline it has shown since the deployment of the
@@ -72,6 +73,8 @@ This is the course of action recommended by all of the experts we have consulted
 ## Rationale and Alternatives
 
 Australia has two valid frequency plans available under local laws and supported by the LORA Alliance. The Alliance make no official distinction between the two and both are freely available for use.
+
+The availability of gateways and sensors suitable for a particular regional plan must be considered. Research indicates that both regional plans have supply chain support from Manufacturers making the selection seem less critical in this regard. However, due to the complication with needing to configure AU915 sensors to operate under the AU923-1 configuration there is significant additional work required to accomplish this. This is detracting from the IoT experience placing at risk the speed of IoT adoption and slowing expansion of network coverage.
 
 This HIP simply provides the Australian community the ability to make the choice of plan to be used in the country, weighing up all of the factors and the changing lancdscape with the introduction of ThingsIX.
 
