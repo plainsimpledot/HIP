@@ -45,18 +45,32 @@ Voting will be 1 vote per hotspot asserted in the Australian continent.
 
 ## Detailed Explanation
 
-The proposed change is extremely simple in that it is reverting to a known working configuration (AU915) utilising a
-LORA Alliance approved frequency plan at up to 30 dBm EIRP which is within the permitted range for Australia.
+The proposed change is extremely simple in that it is reverting to a known working configuration (AU915) utilising a LORA Alliance approved frequency plan at up to 30 dBm EIRP which is within the permitted range for Australia.
 
 It is imperative that the Community participates in the decision-making process. The previous lack of Community participation in the decision-making process has led to the need for this proposal. It is essential to recognise that not allowing the Community to participate in the decision-making process may lead to significant risks, such as a lack of community adoption, mistrust, and a loss of community engagement.
 
-The risks in not switching to AU915 are that the current trend downwards in both operating gateways
-and data usage will contine to show the dramatic decline it has shown since the deployment of the
+The risks in not switching to AU915 are that the current trend downwards in both operating gateways and data usage will contine to show the dramatic decline it has shown since the deployment of the
 'dual plan'
+### Australia Usage
 
-At the very least the operator/investors in Australia should be presented the potential benefits of
-each option and be allowed to make the decision based on what is best for the network and therefore
+![Australia Usage 20 weeks](00XYZ-au-frequency-plan-choice/helium_usage_AU_2023-03-07.png)
+
+### United States Usage
+
+![Australia Usage 20 weeks](00XYZ-au-frequency-plan-choice/helium_usage_US_2023-03-07.png)
+
+### Worldwide Usage
+
+![Australia Usage 20 weeks](00XYZ-au-frequency-plan-choice/helium_usage_WORLD_2023-03-07.png)
+
+At the very least the operator/investors in Australia should be presented the potential benefits of each option and be allowed to make the decision based on what is best for the network and therefore
 their investments.
+
+Further, the landscape has changed with renewed growth of public LoRaWAN operators in the region such as ThingsIX on AU915.
+
+AS923 support can and will be looked at for future implementation as a means to reduce congestion in built up areas by allowing hotspots in congested hexes to switch to this plan to avoid diminished earnings and to allow for 16 channel or dual gateway operations. This is already part of the Helium Roadmap as outlined by Helium Foundation Director Proof-of-Coverage.
+
+This would provide AS923 support where required while allowing full AU915 support across public networks ensuring Helium participates in the growth of the overall LoRaWAN ecosystem. This would also be helping to solve congestion issues in the few metropolitan areas of Australia. 
 
 The code limiting votes to a per hotspot asserted to the Australian continent is outlined below.
 
@@ -64,11 +78,6 @@ The code limiting votes to a per hotspot asserted to the Australian continent is
 
 The only potential drawbacks would be the short to medium term lack of roaming support to AS923.
 This has proven to be negligible and in fact the loss of AU915 devices which have moved to alternatives as a result of the plan change and associated issues, has provided a significant nett decrease in data traffic and coverage. Therefore the move to AU915 is likely to result in recovering some of those losses and provide an immediately positive outcome.
-
-Further, the landscape has changed with a resurgence of TTN in the region along with the emergence of ThingsIX both on AU915.
-AS923 support can and should be looked at for future implementation as a means to reduce congestion in built up areas by allowing hotspots in congested hexes to switch to this plan to avoid diminished earnings and to allow for 16 channel or dual gateway operations. 
-
-This would provide full AS923 support while also allowing full AU915 support, which is not available in the current plan, meanwhile also helping to solve congestion issues. 
 
 This is the course of action recommended by all of the experts we have consulted with including senior members of the LORA Alliance.
 
