@@ -80,6 +80,10 @@ We have currently begun moving these units to alternative networks and plan to m
 We had two major clients in late stages of negotiations whcich we subsequently lost due to the change to AS923.
 We would only be able to continue to utilise the Helium network if it was to re-instate the AU915 frequency plan."
 
+"Rural Network PTY LTD would have 55 gateways on the Helium network if the frequecy remained on AU915. The vast majority of these are deployed in rural areas, with no other Helium gateways. The Riverland region encompasses 9,386 square kilometers and is mostly prime irrigated horticulture.
+
+The change to the dual plan cost my business significant time, disgruntled clients and lost goodwill"
+
 At the very least the operator/investors in Australia should be presented the potential benefits of each option and be allowed to make the decision based on what is best for the network and therefore
 their investments.
 
