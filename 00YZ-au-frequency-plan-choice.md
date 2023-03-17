@@ -12,7 +12,7 @@
 ## Summary
 
 This Helium Improvement Proposal is designed to allow the investors in the Helium network in Australia to have a voice in determining the best frequency plan for the country, as was originaly proposed by
-the Helium Foundation in early 2022. 
+the Helium Foundation in early 2022. The plan proposed by this HIP is AU915. 
 
 ## Motivation
 
@@ -21,6 +21,7 @@ The current Helium network in Australia operates on a AS923-1 channel plan varia
 
 The reasoning given related to a footnote inserted in a LORA Alliance document by an industry player
 which the Alliance themselves have confirmed in no way reflects the LORA Alliance official stance.
+The LOARA Alliance have made it very clear and all of their official documentation confirms that they support both AU915 and AS923 in Australia and the Alliance make no distinction between the two.
 The LORA Alliance also confirmed that there is absolutely no intention to diminish the AU915
 frequency plan in the future.
 
@@ -28,22 +29,30 @@ We believe, backed up by expert opinions including senior members of the LORA Al
 only effective way to support AS923 is to utilise 16 channel gateways, dual 8 channel gateways or allow investor/operators in
 densely populated areas to voluntarily operate on AS923 in line with the Helium IOT POC roadmap goal of reducing congestion.
 
-AU915 is better suited to the Australian environment / use cases due to the availability of higher power sensors and will allow for roaming on TTN
-and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
-who has limited use cases and provides their own coverage in areas they are utilising sensors. This also allows gateway operators who will move over to alternative networks (such as ThingsIX) the potential to dual purpose their gateways and sensors rather than to lose them from the Helium network completely. Operators in other parts of the world currently have and are utilising this option.
+AU915 is better suited to the Australian environment / use cases due to 
+1. The availability of higher power sensors 
+2. The ability to allow for roaming on TTN and ThingsIX networks. 
+3. The higher likelihood of roaming opportunities and partnerships are likely to bring greater benefits than a single commercial operator who has limited use cases and provides their own coverage in areas they are utilising sensors. 
+4. AU915 also allows gateway operators who will move over to alternative networks (such as ThingsIX) the potential to dual purpose their gateways and sensors rather than to lose them from the Helium network completely. Operators in other parts of the world currently have and are utilising this option.
 
 ## Stakeholders
 
-Australia has a vibrant communtiy of members dedicated to furthering LORAWAN in this region. We have
-several channels of communication avaialable, including the official Helium discord and the LoRawan
-Australia discords. The community also run numerous facebook groups for all of the major regions in
-Australia.
-
-NNNCo currently utilise the AS923 channel plan in Australia however there has been no increase in data usage since the changes (in fact there has been a significant decrease) so it is unlikely that they are utilising any roaming. 
+1. Australian IOT users.
+2. Potential Roaming partners
+  -NNNCo currently utilise the AS923 channel plan in Australia however there has been no increase in data usage since the changes (in fact there has been a significant decrease) so it is unlikely that they are utilising any roaming. 
+  -TTN, Things IX and any future networks. All of these networks and some that are still in early stages run on the AU915 frequency plans.
 
 Voting will be 1 vote per hotspot asserted in the Australian continent.
 
 ## Detailed Explanation
+
+Technical arguments tend to go nowhere in regards to the AU915/AS923, experts point out many advantages and drawbacks in both plans. The biggest technical drawback of AS923 which affects Australia though is the default power level and lack of availability of higher powered sensors.
+
+The primary argument is economical based on the following points-
+1. Based on the ETL data below we can see a significant decrease in data usage in Australia compared to the rest of the world as a result of the move to AS923 (Dual Plan)
+2. Australia has a vibrant community of dedicated LORAWAN enthisasts who were advocating for Helium and actively building the network. Since the change many we have heard from many of the largest builders and evangalists who have left and become dissilusioned with Helium.
+3. Businesses are moving their deployments away from Helium due to the issues supporting AS923 to other AU915 options. See below for some business impact statements we have received.
+4. Australia is in a unique position in that it has two valid choices fully supported by the Lora Alliance. Allowing the Australian community the opportunity to decide on their future will restore a lot of faith in the Helium ecosystem that has been lost over the past six months.
 
 The proposed change is extremely simple in that it is reverting to a known working configuration (AU915) utilising a LORA Alliance approved frequency plan at up to 30 dBm EIRP which is within the permitted range for Australia.
 
@@ -80,7 +89,6 @@ AS923 support can and will be looked at for future implementation as a means to 
 
 This would provide AS923 support where required while allowing full AU915 support across public networks ensuring Helium participates in the growth of the overall LoRaWAN ecosystem. This would also be helping to solve congestion issues in the few metropolitan areas of Australia. 
 
-The code limiting votes to a per hotspot asserted to the Australian continent is outlined below.
 
 ## Drawbacks
 
@@ -97,11 +105,13 @@ The availability of gateways and sensors suitable for a particular regional plan
 
 This HIP simply provides the Australian community the ability to make the choice of plan to be used in the country, weighing up all of the factors and the changing lancdscape with the introduction of ThingsIX.
 
-Doing so brings the decision in line with the Helium governance principles and the advertised "People's Netowrk". As has been outlined above, a Yes vote does not preclude future support for AS923, however such support should be introduced in a manner that does not diminish full AU915 support to allow roaming from all AU915 networks, while introducing full support for AS923. Such development should be evaulated via a cost/benefit analysis which one of the key pieces missing in the November changes. 
+Doing so brings the decision in line with the Helium governance principles and the advertised "People's Netowrk". As has been outlined above, a Yes vote does not preclude future support for AS923, however such support should be introduced in a manner that does not diminish full AU915 support to allow roaming from all AU915 networks, while introducing full support for AS923. 
+
+If or when AS923 support was explored in the future, such development should be evaulated via a cost/benefit analysis which was one of the key pieces missing in the November changes. 
 
 "Full Support" in this context means that any device configured for the frequency plan in question will be able to operate on the network and other networks on the same frequency plan without any requirement for configuration changes.
 
-Public netowrks such as TTN and ThingsIX are much more likely to provide roaming opportunities than the commercial operators who are much more likely to, and usually do, deploy sensors in conjunction with their own gateway infrastructure.
+The public networks currently and planned for Australia, all operating on AU915, are much more likely to provide roaming opportunities than the commercial operators who are much more likely to, and usually do, deploy sensors in conjunction with their own gateway infrastructure.
 
 ## Voting mechanism
 
@@ -135,11 +145,10 @@ The impact should be dramatically less since this would re-instate the plan that
 
 ## Success Metrics
 
-We expect to see an upswing in the number of hotspots operating in the country as well as data usage
-towards what it was pre Nov 17. We expect a restoration in confidence in the Helium governance
-process and towards Helium as a whole. The deployment of ThingsIX gateways and sensors in the
-region, which will run on AU915 as the preferred frequency plan for the country, will see some REAL
-opportunities for roaming. By remaining on the preferred data plan, we will not only see those
-moving over to ThingsIX be able to remain on the Helium platform, rather than be lost to the
-network, we also have the opportunity to attract operators who come into ThingsIX to multiplex their
-gateways or operate their sensors accross both networks.
+1. We expect to see an upswing in the number of hotspots operating in the country as well as data usage
+towards what it was pre Nov 17. 
+2. We expect a restoration in confidence in the Helium governance
+process and towards Helium as a whole. 
+3. We expect that aligning with the current and emerging public operators who all run on AU915 as the preferred frequency plan for the country, will see some REAL
+opportunities for roaming. 
+4. We expect that by remaining on the preferred frequency plan we will not only retain gateways and sensors that are or will continue to move to other networks be able to remain on the Helium platform, rather than be lost to the network, we also have the opportunity to attract operators who come into other networks to also participate in the Helium ecosystem with their gateways and sensors.
