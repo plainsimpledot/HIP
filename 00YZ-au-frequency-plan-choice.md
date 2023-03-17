@@ -89,7 +89,7 @@ We have received the following impact statements from businessses who were previ
    - Water quality monitoring
    - Biodiversity monitoring (wildlife traps)
    - Greenhouse monitoring
-   - Enviromental monitoring (rainfall, weather)
+   - Enviromental monitoring (rainfall, weather)  
 
   The bulk of the above deployments in our region require the higher powered sensors available under AU915 and have not been sustainable under the AS923 'Dual Plan'
 
