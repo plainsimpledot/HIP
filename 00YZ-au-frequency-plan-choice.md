@@ -30,7 +30,7 @@ densely populated areas to voluntarily operate on AS923 in line with the Helium 
 
 AU915 is better suited to the Australian environment / use cases due to the availability of higher power sensors and will allow for roaming on TTN
 and ThingsIX networks. These are likely to bring greater benefits than a single commercial operator
-who has limited use cases and provides their own coverage in areas they are utilising sensors. This also allows gateway operators who will move over to alternative networks (such as ThingsIX) to dual purpose their gateways and sensors rather than to lose them from the Helium network completely.
+who has limited use cases and provides their own coverage in areas they are utilising sensors. This also allows gateway operators who will move over to alternative networks (such as ThingsIX) the potential to dual purpose their gateways and sensors rather than to lose them from the Helium network completely. Operators in other parts of the world currently have and are utilising this option.
 
 ## Stakeholders
 
