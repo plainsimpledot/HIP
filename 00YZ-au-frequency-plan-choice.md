@@ -74,15 +74,26 @@ The risks in not switching to AU915 are that the current trend downwards in both
 
 We have received the following impact statements from businessses who were previously building and promoting Helium solutions in Australia-
 
-"Helium Mining PTY LTD, Helium Host PTY LTD and Helium Mining Sydney were running 58 gateways and 45 sensors on the Helium network at the time of the change to the AS923 'Dual Plan'.
-We still have on hand a further 100 gateways and 300 sensors we had planned to roll out. 
-We have currently begun moving these units to alternative networks and plan to move them all to AU915 networks as a result of the change. 
-We had two major clients in late stages of negotiations whcich we subsequently lost due to the change to AS923.
-We would only be able to continue to utilise the Helium network if it was to re-instate the AU915 frequency plan."
+1.  "Helium Mining PTY LTD, Helium Host PTY LTD and Helium Mining Sydney were running 58 gateways and 45 sensors on the Helium network at the time of the change to the     AS923 'Dual Plan'.
+  We still have on hand a further 100 gateways and 300 sensors we had planned to roll out. 
+  We have currently begun moving these units to alternative networks and plan to move them all to AU915 networks as a result of the change. 
+  We had two major clients in late stages of negotiations whcich we subsequently lost due to the change to AS923.
+  We would only be able to continue to utilise the Helium network if it was to re-instate the AU915 frequency plan."
 
-"Rural Network PTY LTD would have 55 gateways on the Helium network if the frequecy remained on AU915. The vast majority of these are deployed in rural areas, with no other Helium gateways. The Riverland region encompasses 9,386 square kilometers and is mostly prime irrigated horticulture.
+2.  "Rural Network PTY LTD would have 55 gateways on the Helium network if the frequecy remained on AU915. The vast majority of these are deployed in rural areas, with   no other Helium gateways. The Riverland region encompasses 9,386 square kilometers and is mostly prime irrigated horticulture.
 
-The change to the dual plan cost my business significant time, disgruntled clients and lost goodwill"
+  We run a large number of sensors, however due to the nature of our main clients, we cannot disclose numbers. Sensor deployments include-
+   - Pump Monitoring along the River Murray (Water Utility)
+   - Bio Security Bins (fruit fly prevention) accross the whole Riverland region (Govt. Department) 
+   - Irrigation (Soil moisture, pressure)
+   - Water quality monitoring
+   - Biodiversity monitoring (wildlife traps)
+   - Greenhouse monitoring
+   - Enviromental monitoring (rainfall, weather)
+
+  The bulk of the above deployments in our region require the higher powered sensors available under AU915 and have not been sustainable under the AS923 'Dual Plan'
+
+  The change to the dual plan cost my business significant time, disgruntled clients and lost goodwill"
 
 At the very least the operator/investors in Australia should be presented the potential benefits of each option and be allowed to make the decision based on what is best for the network and therefore
 their investments.
