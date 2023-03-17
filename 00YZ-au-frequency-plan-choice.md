@@ -74,7 +74,7 @@ The risks in not switching to AU915 are that the current trend downwards in both
 
 We have received the following impact statements from businessses who were previously building and promoting Helium solutions in Australia-
 
-"Helium Mining PTY, Helium Host PTY and Helium Mining Sydney were running 58 gateways and 45 sensors on the Helium network at the time of the change to the AS923 'Dual Plan'.
+"Helium Mining PTY LTD, Helium Host PTY LTD and Helium Mining Sydney were running 58 gateways and 45 sensors on the Helium network at the time of the change to the AS923 'Dual Plan'.
 We still have on hand a further 100 gateways and 300 sensors we had planned to roll out. 
 We have currently begun moving these units to alternative networks and plan to move them all to AU915 networks as a result of the change. 
 We had two major clients in late stages of negotiations whcich we subsequently lost due to the change to AS923.
