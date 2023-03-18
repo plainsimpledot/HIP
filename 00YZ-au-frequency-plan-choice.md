@@ -146,7 +146,7 @@ As the change will need the involvement of the maker community (although the end
 
 Since this will require the change of chain-vars the proposal would be to revert this as part of the migration to the new routing infrastructure and LNS implementation post the Solana chain migration.
 
-Current device users will have to revert changes to their Sensors. Since the number of devices and data usage has been dropping past 17th November this should be done as a matter of urgency as soon as teh chain migration has been completed and when manufacturers are required to switch over to the new gateway-rs implementation switching from LNS State channels to the NetID based routing infrastructure (coupled with the Chirpstack LNS switch).
+Current device users will have to revert changes to their Sensors. Since the number of devices and data usage has been dropping past 17th November this should be done as a matter of urgency as soon as the chain migration has been completed and when manufacturers are required to switch over to the new gateway-rs implementation switching from LNS State channels to the NetID based routing infrastructure (coupled with the Chirpstack LNS switch).
 
 The following documentation will need to be modified.
 
@@ -159,10 +159,12 @@ The impact should be dramatically less since this would re-instate the plan that
 
 ## Success Metrics
 
-1. We expect to see an upswing in the number of hotspots operating in the country as well as data usage
-towards what it was pre Nov 17. 
-2. We expect a restoration in confidence in the Helium governance
+1. Network Coverage: improved network coverage in the region measured by monitoring the number of new gateways deployed in the region, as well as the number of devices connecting to the network. An increase in these numbers would indicate a successful selection of the channel plan and improved network coverage.
+2. Device Compatibility: increased device compatibility measured by monitoring the number of devices that are now able to connect to the network following the selection of the channel plan. An increase in the number of compatible devices would indicate a successful selection of the channel plan and increased device compatibility.
+3. Adoption Rate: monitoring the adoption rate of the network in the region by tracking the number of new users and applications developed on the network following the selection of the channel plan. An increase in the adoption rate would indicate a successful selection of the channel plan and increased adoption of the network by businesses and organisations in the region.
+4. Improved Service Quality: monitoring the quality of service provided by the network by tracking the number of network failures or disruptions following the selection of the channel plan. A reduction in these failures or disruptions would indicate a successful selection of the channel plan and improved service quality for users of the network.
+5. We expect a restoration in confidence in the Helium governance
 process and towards Helium as a whole. 
-3. We expect that aligning with the current and emerging public operators who all run on AU915 as the preferred frequency plan for the country, will see some REAL
+6. We expect that aligning with the current and emerging public operators who all run on AU915 as the preferred frequency plan for the country, will see some REAL
 opportunities for roaming. 
-4. We expect that by remaining on the preferred frequency plan we will not only retain gateways and sensors that are or will continue to move to other networks be able to remain on the Helium platform, rather than be lost to the network, we also have the opportunity to attract operators who come into other networks to also participate in the Helium ecosystem with their gateways and sensors.
+7. We expect that by remaining on the preferred frequency plan we will not only retain gateways and sensors that are or will continue to move to other networks be able to remain on the Helium platform, rather than be lost to the network, we also have the opportunity to attract operators who come into other networks to also participate in the Helium ecosystem with their gateways and sensors.
